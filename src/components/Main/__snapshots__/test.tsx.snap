@@ -41,33 +41,31 @@ exports[`<Main /> should render the heading 1`] = `
 
 .c4 {
   margin-top: 3rem;
-  width: -webkit-min-content(30rem,100%);
-  width: -moz-min-content(30rem,100%);
-  width: min-content(30rem,100%);
+  width: min(30rem,100%);
 }
 
 <main
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado"
+    alt="Imagem de um átomo e React Avançado escrito ao lado."
     class="c1"
     src="/img/logo.svg"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    Aprenda NextsJS, GrapQL e LeafLet na prática
   </h1>
   <h2
     class="c3"
   >
-    TypeScript, ReactJS, NextJS e Styled Components
+    Typescript, ReactJS, NextJS e Styled Components
   </h2>
   <img
-    alt="Um desenvolvedor de frente para uma tela com código"
+    alt="Um desenvolvedor de frente para uma tela com código."
     class="c4"
-    src="/img/gero-illustration"
+    src="/img/hero-illustration.svg"
   />
 </main>
 `
